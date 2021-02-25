@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCalculadora", "ApiCalculadora\ApiCalculadora.csproj", "{B4ED7F21-8956-4C45-B079-C2E379872DDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4ED7F21-8956-4C45-B079-C2E379872DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4ED7F21-8956-4C45-B079-C2E379872DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4ED7F21-8956-4C45-B079-C2E379872DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4ED7F21-8956-4C45-B079-C2E379872DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {515DD519-60FC-4DAD-BAF7-B2C75256D9C7}
+	EndGlobalSection
+EndGlobal

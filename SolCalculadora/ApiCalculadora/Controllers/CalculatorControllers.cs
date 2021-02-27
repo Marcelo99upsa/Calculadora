@@ -4,7 +4,7 @@
 
     [Route("api/[controller]")]
     [ApiController]
-    public class CalculatorControllers : ControllerBase
+    public class CalculatorController : ControllerBase
     {
         [HttpPost]
         [Route("Add")]
@@ -12,26 +12,47 @@
         {
             return numa + numb;
         }
-
+        [HttpGet]
+        [Route("Add")]
+        public int Add2(int numa, int numb)
+        {
+            return numa + numb;
+        }
         [HttpPost]
         [Route("Multiply")]
         public int Multiply([FromHeader] int numa, [FromHeader] int numb)
         {
             return numa * numb;
         }
-
+        [HttpGet]
+        [Route("Multiply")]
+        public int Multiply2([FromHeader] int numa, [FromHeader] int numb)
+        {
+            return numa * numb;
+        }
         [HttpPost]
-        [Route("Divide")]
-        public int Divide([FromHeader] int numa, [FromHeader] int numb)
+        [Route("Subtract")]
+        public int Subtract([FromHeader] int numa, [FromHeader] int numb)
+        {
+            return numa - numb;
+        }
+        [HttpGet]
+        [Route("Subtract")]
+        public int Subtract2([FromHeader] int numa, [FromHeader] int numb)
+        {
+            return numa - numb;
+        }
+        [HttpPost]
+        [Route("Division")]
+        public int Division([FromHeader] int numa, [FromHeader] int numb)
         {
             return numa / numb;
         }
-
-        [HttpPost]
-        [Route("Substract")]
-        public int Substract([FromHeader] int numa, [FromHeader] int numb)
+        [HttpGet]
+        [Route("Division")]
+        public int Division2([FromHeader] int numa, [FromHeader] int numb)
         {
-            return numa - numb;
+            return numa / numb;
         }
     }
 }
